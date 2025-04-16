@@ -44,7 +44,7 @@ def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
         
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     print(
         scrape_linkedin_profile(
             linkedin_profile_url="https://www.linkedin.com/in/moussa-aouinane-37a27616a/", mock=True
